@@ -8,7 +8,7 @@ export const DEFAULT_GYM_ID = 'the-climb-yeonnam';
 export function getScreenPath(screen: AppScreen, gymId = DEFAULT_GYM_ID) {
   switch (screen) {
     case 'home':
-      return '/';
+      return '/home';
     case 'gymSearch':
       return '/gyms';
     case 'myGyms':

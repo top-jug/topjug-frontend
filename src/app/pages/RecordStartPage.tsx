@@ -195,7 +195,7 @@ export default function RecordStartPage() {
       return;
     }
 
-    navigate('/', { replace: true });
+    navigate('/home', { replace: true });
   };
 
   const handleDateSelect = (day: number) => {
